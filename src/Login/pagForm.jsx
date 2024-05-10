@@ -11,7 +11,7 @@ export const LoginForm = () => {
   return (
     <div className="page">
       <header>
-        <h1>Buscador de CEP</h1>
+        <h1>Consultor de CEP</h1>
         <p>Preencha o formulário abaixo para consultar seu CEP</p>
       </header>
       <form className="menu-form">

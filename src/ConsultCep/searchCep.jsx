@@ -28,7 +28,7 @@ export function ConsultCep() {
 
   return (
     <div className="container">
-      <h1 className="title"> Buscador CEP</h1>
+      <h1 className="title">Consultor de CEP</h1>
 
       <div className="containerInput">
         <input
