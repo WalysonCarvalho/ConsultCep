@@ -20,7 +20,7 @@ Como Executar
 Clone este repositório:
 bash
 Copy code
-git clone https://github.com/WalysonCarvalho/ConsultCep/edit/master/.git
+git clone https://github.com/WalysonCarvalho/ConsultCep
 Navegue até o diretório do projeto:
 bash
 Copy code
