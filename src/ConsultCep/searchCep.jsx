@@ -36,9 +36,9 @@ export function ConsultCep() {
           placeholder="Digite seu cep.. "
           value={input}
           onChange={(e) => setInput(e.target.value)}
-        />
+        /> 
         <button className="buttonSearch" onClick={handleSearch}>
-          <FiSearch size={25} color="#080808" />
+          <FiSearch size={25} color="#FF5374" />
         </button>
       </div>
 

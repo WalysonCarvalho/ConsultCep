@@ -1,3 +1,6 @@
+:root {
+  font-size: 62.5%;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -7,7 +10,7 @@ body {
 body::before {
   content: '';
   width: 100%;
-  height: 436px;
+  height: 43.6rem;
 
   position: absolute;
   top: 0;
@@ -17,14 +20,14 @@ body::before {
 }
 
 .page {
-  width: 750px;
+  width: 75rem;
   margin: auto;
 
 }
 
 header {
-  width: 254px;
-  margin-top: 150px;
+  width: 25.4rem;
+  margin-top: 15rem;
   text-align: center;
   font-family: "Poppins"sans-serif;
 }
@@ -32,8 +35,8 @@ header {
 h1 {
   font-family: 'Archivo';
   
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 4.8rem;
+  line-height: 6rem;
   color: #fff;
   font-weight: bold;
   text-align: start;
@@ -41,9 +44,9 @@ h1 {
 
 h2 {
   font-family: 'Archivo';
-  margin-top: 16px;
-  font-size: 20px;
-  line-height: 35px;
+  margin-top: 1.6rem;
+  font-size: 2rem;
+  line-height: 3.5rem;
   color: #535971;
 }
 
@@ -55,9 +58,9 @@ span:hover{
   color: #444344;
 }
 p {
-  width: 417px;
+  width: 41.7rem;
   text-align: start;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 30px;
   font-weight: 400;
   color: #fff;
@@ -66,12 +69,12 @@ p {
 .menu-form {
   display: flex;
   flex-direction: column;
-  width: 750px;
+  width: 75rem;
   background: #FFFF;
-  margin-top: 40px;
-  padding: 64px;
+  margin-top: 4rem;
+  padding: 6.4rem;
   border-radius: 8px 8px 0 0;
-  gap: 48px;
+  gap: 4.8rem;
 }
 
 fieldset {
@@ -85,12 +88,12 @@ label {
 fieldset legend {
   font-family: 'Archivo';
   font-weight: 700;
-  font-size: 26px;
-  line-height: 34px;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
   width: 100%;
   border-bottom: solid 1px #E6E6F0;
-  padding-bottom: 16px;
-  margin-bottom: 25px;
+  padding-bottom: 1.6rem;
+  margin-bottom: 2.5rem;
   color: #535971;
 
 
@@ -99,27 +102,27 @@ fieldset legend {
 .colluns-2 {
   display: flex;
   width: auto;
-  gap: 22px;
+  gap: 2.2rem;
 
 
 }
 
 .colluns-2 label {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
   color: #4E4958;
   margin-bottom: 8px;
 }
 
 .input-wrapper {
-  margin-top: 24px;
+  margin-top: 2.4rem;
   display: flex;
   flex-direction: column;
 }
 
 .input-wrapper label {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
   color: #4E4958;
   margin-bottom: 8px;
 }
@@ -129,17 +132,73 @@ fieldset legend {
   background: #FAFAFC;
   border: solid 1px #E6E6F0;
   border-radius: 8px;
-  height: 56px;
-  padding: 0 24px;
-  font-size: 16px;
+  height: 5.6rem;
+  padding: 0 2.4rem;
+  font-size: 1.6rem;
   font-family: 'Poppins', sans-serif;
-  line-height: 26px;
-  width: 298px;
+  line-height: 2.6rem;
+  width: 29.8rem;
 
 }
 
 .input-container {
-  margin-top: 24px;
+  margin-top: 2.4rem;
   display: flex;
   flex-direction: column;
+}
+
+.input-container label {
+  font-size: 1.4rem;
+  line-height: 2.4;
+  color: #4E4958;
+  margin-bottom: 8px;
+  margin-top: 1rem;
+}
+
+.input-container input {
+
+  background: #FAFAFC;
+  border: solid 1px #E6E6F0;
+  border-radius: 8px;
+  height: 5.6rem;
+  padding: 0 2.4rem;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2.6rem;
+
+}
+
+
+
+
+.btn-enviar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #535971;
+  height: 16rem;
+  width: 87.7rem;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+  border: none;
+  padding: 4rem 6.4rem;
+}
+button #buttons {
+ 
+
+  height: 5.6rem;
+  width: 60.8rem;
+  background: #FF5374;
+  border-radius: 2rem;
+  border: none;
+
+}
+#buttons:hover{
+  background-color: #f4254f;
+}
+
+input:invalid {
+  border: solid 1px red;
+
 }

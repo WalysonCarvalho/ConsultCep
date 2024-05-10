@@ -32,26 +32,21 @@ export const LoginForm = () => {
             </div>
           </div>
 
-          <div className="fieldset-container">
+          <div className="fieldset-container-one">
             <div className="input-container">
               <label for="emails">
                 Email <span>(Digite um e-mail válido.)</span>
               </label>
               <input type="email" id="emails" required />
-
-              <div className="input-container">
-                <label for="password">
-                  Senha <span>(Minímo 8 caracteres)</span>
-                </label>
-                <input type="password" minlength="8" id="password" required/>
-              </div>
             </div>
           </div>
         </fieldset>
+        
       </form>
-      <button onClick={handleRedirect}>
+      <button className="btn-enviar" onClick={handleRedirect}>
         <input  type="submit" form="menu-form" id="buttons" value="Enviar"/>
       </button>
+      
     </div>
   );
 };
