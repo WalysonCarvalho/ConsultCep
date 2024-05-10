@@ -22,13 +22,11 @@ Após fazer login, os usuários podem acessar a funcionalidade de consulta de CE
 
 Como Executar
 Clone este repositório:
-bash
-Copy code
-git clone https://github.com/WalysonCarvalho/ConsultCep
+
+git clone https://github.com/WalysonCarvalho/ConsultCep/edit/master/.git
 Navegue até o diretório do projeto:
-bash
-Copy code
-cd seu-repositorio
+
+cd https://github.com/WalysonCarvalho?tab=repositories)
 Abra o arquivo index.html em um navegador web.
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar um problema.
